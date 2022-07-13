@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.login-container > button {
+  justify-items: flex-end;
+  cursor: pointer;
+}
+
+.login-container > input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

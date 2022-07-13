@@ -1,0 +1,22 @@
+<%- include('./headers'); %>
+<table>
+  <tr>
+    <th>id</th>
+    <th>User</th>
+    <th>Add & Delete</th>
+  </tr>
+  <tr>
+    <% for (let i = 0 ; i < user.length ; i++) { %>
+    <li><%= user[i] %></li>
+    <% } %>
+  </tr>
+  <tr>
+    <% for (let i = 0 ; i < user.length ; i++) { %>
+    <li><%= user %></li>
+    <% } %>
+  </tr>
+  <tr>
+    <a href="/add.ejs">ADD</a>
+    <a href="/delete.ejs">DELETE</a>
+  </tr>
+</table>
